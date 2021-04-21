@@ -5,10 +5,6 @@ alias reloaddns="dscacheutil -flushcache && sudo killall -HUP mDNSResponder"
 alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
 
-# Directories
-alias dotfiles="cd $DOTFILES"
-alias library="cd $HOME/Library"
-
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
 alias watch="npm run watch"
@@ -55,3 +51,6 @@ alias dt='cd ~/Desktop'
 alias dl='cd ~/Downloads'
 alias sdks='cd /Library/SDKs'
 alias airship='cd ~/Airship/Apps'
+alias dotfiles="cd $DOTFILES"
+alias library="cd $HOME/Library"
+alias zshrc="code ~/.zshrc"
