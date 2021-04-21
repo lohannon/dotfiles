@@ -24,14 +24,14 @@ brew 'tree' # List directories in a tree structure
 
 # Development
 brew 'imagemagick'
-Brew 'heroku/brew/heroku'
+brew 'heroku/brew/heroku'
 brew 'nvm'
 brew 'postgres'
-brew 'pgcli'  
+brew 'pgcli'
 brew 'redis'
 brew 'rvm'
 brew 'sqlite3'
-brew 'watchman' 
+brew 'watchman'
 brew 'yarn'
 
 # Apps
@@ -45,20 +45,16 @@ cask 'firefox'
 cask 'github'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
-cask 'harvest' 
+cask 'harvest'
 cask 'imageoptim'
 cask 'iterm2'
 cask 'postman'
 cask 'quip'
 cask 'slack'
-cask 'spectacle' 
+cask 'spectacle'
 cask 'tableplus'
 cask 'visual-studio-code'
 cask 'zoom'
-
-# Quicklook
-cask 'qlmarkdown'
-cask 'quicklook-json'
 
 # Fonts
 cask 'font-lato'
