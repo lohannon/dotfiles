@@ -48,7 +48,6 @@ cask 'firefox'
 cask 'github'
 cask 'google-backup-and-sync'
 cask 'google-chrome'
-cask 'harvest'
 cask 'imageoptim'
 cask 'iterm2'
 cask 'postman'
@@ -70,4 +69,5 @@ cask 'font-source-serif-pro'
 
 # Mac App Store
 mas 'Bear', id: 1091189122
+mas 'Harvest', id: 506189836
 mas 'Spark', id: 1176895641
