@@ -55,3 +55,6 @@ alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias zshrc="code ~/.zshrc"
 alias aliases="code $DOTFILES/aliases.zsh"
+
+# Project Directories
+alias frameworq='cd ~/Airship/Apps/Frameworq/kms-rails'
