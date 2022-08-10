@@ -33,6 +33,10 @@ alias stash="git stash -u"
 alias unstage="git restore --staged ."
 alias wip="commit wip"
 
+gbx() {
+  git branch | grep $1 | xargs git branch -D
+}
+
 # Rails
 alias bx='bundle exec'
 alias bi='bundle install -j8'
@@ -56,5 +60,10 @@ alias library="cd $HOME/Library"
 alias zshrc="code ~/.zshrc"
 alias aliases="code $DOTFILES/aliases.zsh"
 
-# Project Directories
-alias frameworq='cd ~/Airship/Apps/Frameworq/kms-rails'
+# Projects
+alias althea='cd ~/Airship/Apps/Althea'
+alias groundworks='cd ~/Airship/Apps/Groundworks'
+alias rmconfig='rm ~/Library/Application\ Support/Groundworks/config.json'
+alias rmcontracts='rm -f ~/Library/Application\ Support/Groundworks/contracts'
+alias rmassets='rm -f ~/Library/Application\ Support/Groundworks/assets'
+alias rmgwxdata='rmconfig && rmcontracts && rmassets'

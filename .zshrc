@@ -111,3 +111,6 @@ export LANG=en_US.UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 eval "$(rbenv init -)"
+# tabtab source for electron-forge package
+# uninstall by removing these lines or running `tabtab uninstall electron-forge`
+[[ -f /Users/lindsayhannon/.config/yarn/global/node_modules/tabtab/.completions/electron-forge.zsh ]] && . /Users/lindsayhannon/.config/yarn/global/node_modules/tabtab/.completions/electron-forge.zsh
