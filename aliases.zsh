@@ -63,7 +63,7 @@ alias aliases="code $DOTFILES/aliases.zsh"
 # Projects
 alias althea='cd ~/Airship/Apps/Althea'
 alias groundworks='cd ~/Airship/Apps/Groundworks'
-alias rmconfig='rm ~/Library/Application\ Support/Groundworks/config.json'
-alias rmcontracts='rm -f ~/Library/Application\ Support/Groundworks/contracts'
-alias rmassets='rm -f ~/Library/Application\ Support/Groundworks/assets'
-alias rmgwxdata='rmconfig && rmcontracts && rmassets'
+alias rmconfig='rm ~/Library/Application\ Support/Groundworks/config.json && rm ~/Library/Application\ Support/Groundworks/gss-token-encrypted.json'
+alias rmcontracts='rm -r ~/Library/Application\ Support/Groundworks/contracts'
+alias rmassets='rm -r ~/Library/Application\ Support/Groundworks/assets'
+alias rmgwxdata='rmconfig || rmcontracts || rmassets'
